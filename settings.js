@@ -20,5 +20,5 @@ READ_MESSAGE: process.env.READ_MESSAGE || "true",
 ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "true",
 ANTI_DELETE: process.env.ANTI_DELETE || "true",
 DELETEMSGSENDTO : process.env.DELETEMSGSENDTO === undefined ? '' : process.env.DELETEMSGSENDTO,
-INBOX_BLOCK: process.env.INBOX_BLOCK || "true",
+INBOX_BLOCK: process.env.INBOX_BLOCK || "false",
 };
